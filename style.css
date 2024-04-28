@@ -692,6 +692,10 @@ footer{
         padding: 10px;
         height: 60%;
     }
+    .fit-image{
+            width: 400px;
+            height: 400px;
+    }
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
