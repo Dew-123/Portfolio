@@ -64,7 +64,7 @@ sr.reveal('.project-box',{interval: 200})
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
 
-/* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
+
 
 /* -- ABOUT INFO & CONTACT INFO -- */
 const srLeft = ScrollReveal({
@@ -74,6 +74,7 @@ const srLeft = ScrollReveal({
   reset: true
 })
 
+/* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
 srLeft.reveal('.about-info',{delay: 100})
 srLeft.reveal('.contact-info',{delay: 100})
 srLeft.reveal('.journey',{delay: 100})
@@ -101,7 +102,7 @@ function scrollActive() {
 
   sections.forEach(current =>{
     const sectionHeight = current.offsetHeight,
-        sectionTop = current.offsetTop - 50,
+      sectionTop = current.offsetTop - 50,
       sectionId = current.getAttribute('id')
 
     if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) { 
