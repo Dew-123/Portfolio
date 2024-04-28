@@ -76,6 +76,8 @@ const srLeft = ScrollReveal({
 
 srLeft.reveal('.about-info',{delay: 100})
 srLeft.reveal('.contact-info',{delay: 100})
+srLeft.reveal('.journey',{delay: 100})
+
 
 /* -- ABOUT SKILLS & FORM BOX -- */
 const srRight = ScrollReveal({
@@ -87,7 +89,7 @@ const srRight = ScrollReveal({
 
 srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
-
+srRight.reveal('.journey2',{delay: 100})
 
 
 /* ----- CHANGE ACTIVE LINK ----- */

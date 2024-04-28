@@ -338,6 +338,43 @@ h3{
     background: var(--first-color-hover);
 }
 
+/* ----- MYJOURNEY BOX ----- */
+.journey{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    width: 100%;
+    background: var(--color-white);
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    border-radius: 20px;
+}
+.journey p{
+    text-align: center;
+    font-size: 15px;
+    color: #777;
+}
+
+.journey2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    width: 100%;
+    background: var(--color-white);
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    border-radius: 20px;
+}
+.journey2 p{
+    text-align: center;
+    font-size: 15px;
+    color: #777;
+}
+
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
     margin: 10px;
@@ -379,6 +416,7 @@ h3{
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
+
 .project-box>i{
     font-size: 50px;
     color: #00B5E7;
