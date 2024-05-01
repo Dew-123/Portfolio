@@ -225,6 +225,16 @@ nav{
     color: var(--first-color);
 }
 
+.icon2{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
 /* ----- FEATURED IMAGE BOX ----- */
 .featured-image{
     display: flex;
@@ -693,7 +703,26 @@ footer{
 }
 .project12 p{
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
+    color: #474646;
+}
+
+.project2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 50px;
+    padding-inline: 20px;
+    width: 100%;
+    height: 100%;
+    background: #49cde4;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    border-radius: 20px;
+}
+.project2 p{
+    text-align: center;
+    font-size: 17px;
     color: #474646;
 }
 
@@ -719,6 +748,23 @@ footer{
 .visit-website {
     margin-top: 40px;
 }
+.visit2-website {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.project2-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.project2-list span{
+    font-size: 14px;
+    background: #06486e;
+    color: var(--color-white);
+    padding: 2px 10px;
+    border-radius: 5px;
+}
 
 .visit-website a {
     display: inline-block;
@@ -732,6 +778,20 @@ footer{
 
 .visit-website a:hover {
     background-color: #01613f; 
+}
+
+.visit2-website a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #606fb1; 
+    color: #fff;
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+}
+
+.visit2-website a:hover {
+    background-color: #053a80; 
 }
 
 /* Media query for smaller screens */
