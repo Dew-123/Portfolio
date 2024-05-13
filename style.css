@@ -436,6 +436,10 @@ h3{
     overflow: hidden;
 }
 
+.uil-arrow-circle-right {
+    font-size: 24px; 
+  }
+
 .project-box>i{
     font-size: 50px;
     color: #00B5E7;
@@ -460,6 +464,8 @@ h3{
     bottom: 0;
 }
 .project-box:hover.project-box i,
+.project-box:hover.project-box span,
+
 .project-box:hover.project-box>h3,
 .project-box:hover.project-box>label{
     color: var(--color-white);
